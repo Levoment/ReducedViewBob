@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+	"id": "reducedviewbob",
+  "version": "${version}",
+
+	"name": "Reduced View Bob",
+  "description": "Reduces the view bob of the camera, but leaves the hand movement",
+  "authors": [
+		"Levoment"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"license": "Unlicense",
+	"icon": "assets/reducedviewbob/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+		"com.github.levoment.reducedviewbob.ReducedViewBobMod"
+    ]
+  },
+  "mixins": [
+		"reducedviewbob.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+	"minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}
